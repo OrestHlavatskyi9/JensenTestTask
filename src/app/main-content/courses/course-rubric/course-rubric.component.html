@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="header-container">
+        <h2>Course Rubric</h2>
+        <div class="dropdown">
+            <button class="dropdown-button">Set an Action</button>
+            <div class="dropdown-content">
+                <a>Create New Ability</a>
+                <a>Create New Version</a>
+                <a>Export to Excel Sheet</a>
+            </div>
+        </div>
+    </div>
+
+    <app-create-new-course/>
+
+    <app-course-rubric-content-block [numberOfRows]="2"/>
+    <app-course-rubric-content-block/>
+    <app-course-rubric-content-block/>
+</div>

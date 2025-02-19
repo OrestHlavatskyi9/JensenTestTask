@@ -1,0 +1,43 @@
+.container {
+    background-color: #F6F5F1;
+    padding: 20px;
+    height: 100%;
+}
+
+.page-title {
+    margin: -10px 0;
+}
+
+.dropdown-and-filters {
+    display: flex;
+    align-items: center;
+}
+
+.content-and-filters-container {
+    display: flex;
+    align-items: center;
+}
+
+.persons-content {
+    width: 75%;
+}
+
+.persons-filters {
+    width: 23%;
+    margin-left: 20px;
+}
+
+.page-number-button{
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    color: #84919A;
+    font-family: 'TestTiemposText';
+    font-size: 16px;
+}
+
+.pressed-page-number-button{
+    background-color: #C19B5C;
+    color: #fff;
+    border-radius: 2px;
+}

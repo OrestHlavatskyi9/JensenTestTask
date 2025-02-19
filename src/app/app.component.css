@@ -1,0 +1,32 @@
+:host {
+    display: flex;
+}
+
+/* .sidebar{
+    width: 312px;
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    flex-flow: 1;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    overflow: auto;
+    background-color: #092435;
+    z-index: 1;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    z-index: 0;
+}

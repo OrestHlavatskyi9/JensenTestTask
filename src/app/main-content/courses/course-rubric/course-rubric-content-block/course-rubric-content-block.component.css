@@ -1,0 +1,29 @@
+.container {
+    background-color: #fff;
+    padding: 20px 30px 60px 15px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin: 20px 0;
+
+    /* display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ability {
+    grid-row: span 2;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
+
+.items-row {
+    display: contents;
+}

@@ -1,0 +1,23 @@
+p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    color: #092435;
+    text-transform: uppercase;
+}
+
+input{
+    all: unset;
+    width: 50%;
+    border: 1px solid #D3D3D3;
+    border-radius: 1px;
+    padding: 15px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    font-family: 'TestTiemposText';
+    font-weight: 400;
+    font-size: 16px;
+}

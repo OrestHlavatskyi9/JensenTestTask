@@ -1,0 +1,37 @@
+.filters {
+    font-family: 'TestTiemposFine';
+    font-weight: 500;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 15px 15px;
+}
+
+.filter-group:not(:first-child) {
+    margin-top: 20px;
+}
+
+.filter-group-title {
+    font-family: 'TestTiemposFine';
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 5px;
+}
+
+label {
+    font-family: 'TestTiemposText';
+    font-weight: 400;
+    font-size: 16px;
+    color: #092435;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}

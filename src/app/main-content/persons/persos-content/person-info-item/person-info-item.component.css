@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 15px 10px;
+
+    margin-bottom: 10px;
+}
+
+.person-avatar{
+    width: 64px;
+    height: 64px;
+}
+
+.person-info-container{
+    margin-left: 10px;
+}
+
+.person-name{
+    margin-top: -3px;
+    margin-bottom: 2px;
+    font-family: 'TestTiemposFine';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.person-info{
+    display: flex;
+    align-items: center;
+}
+
+.person-info-item{
+    margin: 0 10px;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    color: #84919A;
+}

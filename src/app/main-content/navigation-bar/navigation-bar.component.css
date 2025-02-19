@@ -1,0 +1,24 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -14px;
+    padding: 15px 30px;
+}
+
+input {
+    width: 50%;
+    border: 1px solid #D3D3D3;
+    border-radius: 1px;
+    padding: 15px;
+    padding-left: 40px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 16px 16px;
+    background-image: url("../../../../public/images/search-rounded.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px
+}

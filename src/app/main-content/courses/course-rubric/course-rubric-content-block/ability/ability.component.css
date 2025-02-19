@@ -1,0 +1,31 @@
+.ability{
+    height: 90%;
+    background-color: #E5EAEE;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.ability-header-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ability-content{
+    font-family: 'TestTiemposText';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ability-header-container img{
+    width: 18px;
+    height: 18px;
+}
+
+.ability-header{
+    margin-left: 5px;
+    font-family: 'TestTiemposFine';
+    font-weight: 500;
+    font-size: 18px;
+    color: #092435;
+}

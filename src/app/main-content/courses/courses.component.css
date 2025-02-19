@@ -1,0 +1,40 @@
+.container {
+    background-color: #F6F5F1;
+    padding: 20px;
+    height: 100%;
+}
+
+p {
+    background-color: #F6F5F1;
+}
+
+.control-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.page-title{
+    margin: 10px 0;
+}
+
+label{
+    font-family: 'TestTiemposText';
+    font-weight: 400;
+    font-size: 16px;
+    color: #84919A;
+}
+
+.path{
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.slash{
+    margin: 0 10px;
+}

@@ -1,0 +1,12 @@
+/* .container{
+    background-color: #092435;
+    display: flex;
+    width: 100%;
+    height: 100%;
+} */
+
+:host {
+    background-color: #092435; 
+    color: white;
+    padding: 20px;
+}

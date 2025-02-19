@@ -1,0 +1,31 @@
+.container {
+    background-color: #fff;
+}
+
+.person-info-item {
+    margin-bottom: 20px !important;
+}
+
+.dropdown-position {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+
+    margin-top: -50px;
+}
+
+label{
+    font-family: 'TestTiemposText';
+    font-weight: 400;
+    font-size: 16px;
+    color: #84919A;
+}
+
+.path{
+    display: flex;
+    align-items: center;
+}
+
+.slash{
+    margin: 0 10px;
+}

@@ -1,0 +1,12 @@
+.container{
+    background-color: #F6F5F1;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+h3{
+    font-family: 'TestTiemposFine';
+    font-weight: 500;
+    font-size: 18px;
+    margin: 3px 0;
+}

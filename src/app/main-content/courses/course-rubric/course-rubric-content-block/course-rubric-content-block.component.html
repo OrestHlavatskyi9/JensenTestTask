@@ -1,0 +1,23 @@
+<div class="container">
+
+    <div class="dropdown" style="align-self: flex-end;">
+        <button class="dropdown-button">Set an Action</button>
+        <div class="dropdown-content">
+            <a>Option 1</a>
+            <a>Option 2</a>
+            <a>Option 3</a>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="content-container">
+        <app-ability class="ability" />
+        <div *ngFor="let row of rowsArray; let i = index" class="items-row">
+            <app-rubric-content-item headerText="Requirement A" />
+            <app-rubric-content-item headerText="Grade E" />
+            <app-rubric-content-item headerText="Grade C" />
+            <app-rubric-content-item headerText="Grade A" />
+        </div>
+    </div>
+</div>
