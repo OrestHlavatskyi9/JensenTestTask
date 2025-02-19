@@ -5,18 +5,15 @@
     border-radius: 2px;
     margin: 20px 0;
 
-    /* display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px; */
-
     display: flex;
     flex-direction: column;
 }
 
 .ability {
     grid-row: span 2;
-    margin-bottom: 5.5px;
-}
+    /* margin-bottom: 9px; */
+    margin-bottom: calc(0.5vh + 5px);
+} 
 
 .content-container {
     display: grid;
