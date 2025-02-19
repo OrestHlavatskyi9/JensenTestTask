@@ -104,3 +104,12 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.dropdown-arrow-image{
+    padding-left: 60px;
+}
+
+.dropdown-button-content{
+    display: flex;
+    align-items: center;
+}
