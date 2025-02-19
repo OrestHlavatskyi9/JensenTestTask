@@ -1,9 +1,8 @@
 .container {
-    background-color: #fff;
-}
-
-.person-info-item {
-    margin-bottom: 20px !important;
+    background-color: #F6F5F1;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
 
 .dropdown-position {

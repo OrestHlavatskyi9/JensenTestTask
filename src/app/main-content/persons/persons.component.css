@@ -27,6 +27,10 @@
     margin-left: 20px;
 }
 
+.page-number-buttons-container{
+    margin-top: 20px;
+}
+
 .page-number-button{
     all: unset;
     cursor: pointer;
